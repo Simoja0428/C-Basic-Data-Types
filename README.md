@@ -52,3 +52,32 @@ char letVal = 'T';
 
 ## Printing Data Types
 In the previous project we learned how to print constant statements. In programming we will often need to print the value of a variable to the console. Below is a short program that demonstrates how we could do this:
+
+```c++
+
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char* argv[])
+{
+  int wholeNum = 1;
+  double decimalNum = 3.25;
+  bool flag = true;
+  char letter = 'a';
+  
+  cout << "The whole number value is: " << wholeNum << endl;
+  cout << "The decimal number value is: " << decimalNum << endl;
+  cout << "The value of the flag is: " << flag << endl;
+  cout << "The character value is: " << letter << endl;
+  
+  return 0;
+}
+```
+The output of this program above is:
+```
+The whole number value is: 1
+The decimal number value is: 3.25
+The value of the flag is: true
+The character value is: a
+```
