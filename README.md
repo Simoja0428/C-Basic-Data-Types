@@ -14,3 +14,22 @@ You can also combine the declaration of variables in C++ programming into one li
 int number = 1;
 ```
 When programming with variables you will only need to declare the variable once.
+
+## Data Types of Variables
+When we are programming with variables we need to specify to the computer what type of information is being stored in the variables we are working with. In order to do this, we need to make sure we specify the **data types** of the variables. The data type of a variable is what tells the computer what type of information is being store in that variable. It is common practice to specify the data type when we declare the variable.
+
+## Integers
+**Integers** are a type of variable that is meant to store whole numbers. Integers do not account for decimals so you should be careful when working with them. Below demonstrates an example of declaring integers in C++ programming:
+
+```c++
+int num1 = 1;
+int num2 = -5;
+int num3 = 102909;
+```
+## Booleans
+**Booleans** are a type of variable that is used to hold true or false values. Booleans are often useful when we need to identify when a condition has or has not been meant for our program. Below demonstrates an example of declaring a boolean in C++ programming:
+
+```c++
+bool flag1 = true;
+bool flag2 = false;
+```
