@@ -41,3 +41,11 @@ double wholeDec = 3.0;
 bool passed = true;
 bool failed = false;
 ```
+### Characters
+**Characters** are a type of variable that is meant to store single character values. Characters can only hold one letter value. We'll cover how you can store multiple letter values (full words) in a later project. Below demonstrates an example of declaring characters in C++ programming:
+
+```c++
+char letter = 'e';
+char punct = '?';
+char letVal = 'T';
+```
