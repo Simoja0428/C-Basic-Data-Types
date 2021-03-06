@@ -50,7 +50,7 @@ char punct = '?';
 char letVal = 'T';
 ```
 
-## Printing Data Types
+## Printing Variables
 In the previous project we learned how to print constant statements. In programming we will often need to print the value of a variable to the console. Below is a short program that demonstrates how we could do this:
 
 ```c++
