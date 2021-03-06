@@ -26,6 +26,14 @@ int num1 = 1;
 int negVal = -5;
 int large = 102909;
 ```
+## Doubles
+**Doubles** are a type of variable that is meant to store decimal numbers. Doubles are much more precise than integers since they account for decimals, however, they also take up a much larger amount of memory storage. For that reason, you should only use doubles if you know that your program will require decimals. Below demonstrates an example of declaring doubles in C++ programming:
+
+```c++
+double decVal = 1.25;
+double negDec = -5.26;
+double wholeDec = 3.0;
+```
 ## Booleans
 **Booleans** are a type of variable that is used to hold true or false values. Booleans are often useful when we need to identify when a condition has or has not been meant for our program. Below demonstrates an example of declaring a boolean in C++ programming:
 
