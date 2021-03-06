@@ -23,13 +23,13 @@ When we are programming with variables we need to specify to the computer what t
 
 ```c++
 int num1 = 1;
-int num2 = -5;
-int num3 = 102909;
+int negVal = -5;
+int large = 102909;
 ```
 ## Booleans
 **Booleans** are a type of variable that is used to hold true or false values. Booleans are often useful when we need to identify when a condition has or has not been meant for our program. Below demonstrates an example of declaring a boolean in C++ programming:
 
 ```c++
-bool flag1 = true;
-bool flag2 = false;
+bool passed = true;
+bool failed = false;
 ```
